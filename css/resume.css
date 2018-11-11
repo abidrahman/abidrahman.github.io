@@ -52,11 +52,15 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.social-icons {
+    margin-bottom: 0.5rem;
+}
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
+  /* width: 3.5rem; */
+  /* background-color: #495057; */
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -74,11 +78,20 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 1.5rem;
+}
+
+.list-inline.dev-icons {
+  margin-left: 1.2rem;
+  margin-bottom: .5rem;
 }
 
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
+}
+
+.resume-section .mb-4 {
+  margin-bottom: 3rem!important; 
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -112,7 +125,7 @@ p.lead {
     display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
