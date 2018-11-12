@@ -2,10 +2,6 @@ body {
   font-family: 'Muli';
   padding-top: 54px;
   color: #868e96;
-  background-image: url('../img/Rectangle.png');
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 
 @media (min-width: 992px) {
